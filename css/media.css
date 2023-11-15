@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px) {
+  header {
+  }
+  .navbar-brand {
+    font-size: 14px;
+    padding: 0;
+  }
+  .navbar-brand img {
+    height: 24px;
+    width: auto;
+  }
+  .navbar-text {
+    font-size: 12px;
+  }
+}
+
+.logo2 {
+  height: 60px;
+}
+.logo1 {
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+}
+.ref {
+  margin-left: 40px;
+}
+
+/* .main-nav {
+    cursor: pointer;
+  } */
+.imgsize {
+  max-width: 400px;
+}
+
+.app button {
+  position: center;
+  margin-right: 50px;
+}
+.phoneimg {
+  max-width: 400px;
+
+  text-align: center;
+  padding-bottom: 15px;
+}
+.moha {
+  margin-right: 100px;
+}

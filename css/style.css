@@ -1,0 +1,93 @@
+body {
+  font-family: cairo;
+}
+ header {
+  min-height: 150px;
+ 
+  background-size: 40%; */
+}
+
+a {
+  text-decoration: none;
+  color: rgba(29, 29, 29, 1);
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.16);
+ 
+}
+
+.logo2 {
+  width: 78.59px;
+  height: 79.12px;
+ margin-top:  4px;
+
+padding: 1px;
+}
+.logo1{width: 187px;
+height: 56px;
+top: 22px;
+left: 120px;
+}
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px;
+}
+.main-nav li a {
+  font-family: Cairo;
+ 
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.main-nav  a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: rgba(52, 48, 48, 0.16);
+  transition: 1s;
+}
+.main-nav  a:hover::after {
+  width: 100%;
+}
+
+nav .fa-solid {
+  display: none;
+}
+ .header-box {
+  display: flex;
+  justify-content: space-between;
+} 
+h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-family: Cairo;
+}
+ h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Cairo;
+}
+
+.imgsize{
+  
+}
+footer{background: 
+rgba(0, 81, 106, 0.05);}
+     .animated-image {
+        
+                     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+        }
+
+        .animated-image:hover {
+            transform: rotate(360deg); 
+              transform: scale(1.2); /* زيادة الحجم عند التحويل إليها */
+            opacity: 0.7/* تعديل نوع التحريك حسب الحاجة */
+        }
